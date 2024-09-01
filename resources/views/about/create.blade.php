@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+// New Feature Add
 <div class="container">
     <h1>Create About</h1>
     <form action="{{ route('admin.about.store') }}" method="POST" enctype="multipart/form-data">
